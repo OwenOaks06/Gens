@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "gens:block/iron_gen_block"
+    }
+  }
+}
