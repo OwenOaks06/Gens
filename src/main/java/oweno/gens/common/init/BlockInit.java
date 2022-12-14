@@ -15,8 +15,8 @@ import oweno.gens.common.block.IronGenBlock;
 public class BlockInit {
     public static DeferredRegister<Block> BLOCKS = DeferredRegister.create(ForgeRegistries.BLOCKS, Gens.MODID);
 
-    private static RegistryObject<Block> IRON_GEN_BLOCK = register("iron_gen",
-            () -> new IronGenBlock(BlockBehaviour.Properties.of(Material.METAL).requiresCorrectToolForDrops().strength(5f)),
+    private static final RegistryObject<Block> IRON_GEN_BLOCK = register("iron_gen_block",
+            () -> new IronGenBlock(BlockBehaviour.Properties.of(Material.METAL).strength(-1.0f, 20f).noLootTable()),
             new Item.Properties().tab(Gens.TAB));
 
     private static <T extends Block> RegistryObject<T> register(String name, Supplier<T> supplier, Item.Properties properties) {

@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "gens:items/glasses_item"
+    "layer0": "gens:items/kiwi_food"
   }
 }

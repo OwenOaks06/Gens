@@ -9,7 +9,7 @@ import oweno.gens.common.init.*;
 
 @Mod(Gens.MODID)
 public class Gens {
-    public static final String MODID = "Gens";
+    public static final String MODID = "gens";
 
     public Gens() {
         IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();

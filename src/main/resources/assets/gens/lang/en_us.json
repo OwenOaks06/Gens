@@ -1,4 +1,7 @@
 {
   "item.gens.glasses_item": "Glasses",
-  "block.gens.iron_gen_block": "Iron Generator"
+  "block.gens.iron_gen_block": "Iron Generator",
+  "item.gens.kiwi_food": "Kiwi",
+  "item.gens.superghast1_pickaxe": "Magma Pickaxe",
+  "itemGroup.gens": "Gens"
 }
